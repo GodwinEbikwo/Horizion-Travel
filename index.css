@@ -72,6 +72,18 @@ body {
   backdrop-filter: blur(80px);
 }
 
+@media (max-width: 47.9375rem) {
+  .header-area {
+    background-color: #eedad1;
+    background-image: none;
+  }
+
+  .blurView {
+    background: none;
+    backdrop-filter: none;
+  }
+}
+
 /* navbar regular css start */
 
 .site-navbar {
