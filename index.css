@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500;700&display=swap");
-
 @font-face {
   font-family: "Calibre";
   src: url("./fonts/Calibre-Regular.ttf");
@@ -63,15 +62,17 @@ body {
 }
 
 .header-area {
-  background: #f3e1e1;
+  background-image: url("./background5.jpg");
+  background-position: center center;
+  background-size: cover;
+}
+
+.blurView {
+  background: rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(30px);
 }
 
 /* navbar regular css start */
-.navbar-area {
-  background: #f3e1e1;
-  /* background-color: rgba(12, 13, 53, 0.05); */
-  /* border-bottom: 0.5px solid rgb(182, 155, 155); */
-}
 
 .site-navbar {
   display: flex;
