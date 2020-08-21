@@ -69,7 +69,7 @@ body {
 
 .blurView {
   background: rgba(255, 255, 255, 0.5);
-  backdrop-filter: blur(30px);
+  backdrop-filter: blur(80px);
 }
 
 /* navbar regular css start */
