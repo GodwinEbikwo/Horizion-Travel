@@ -69,7 +69,8 @@ body {
 
 .blurView {
   background: rgba(255, 255, 255, 0.5);
-  backdrop-filter: blur(80px);
+  backdrop-filter: blur(40px);
+  -webkit-backdrop-filter: blur(40px);
 }
 
 @media (max-width: 47.9375rem) {
