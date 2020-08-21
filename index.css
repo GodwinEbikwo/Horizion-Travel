@@ -72,7 +72,7 @@ body {
   backdrop-filter: blur(40px);
   -webkit-backdrop-filter: blur(40px);
 }
-
+/* 
 @media (max-width: 47.9375rem) {
   .header-area {
     background-color: #eedad1;
@@ -83,7 +83,7 @@ body {
     background: none;
     backdrop-filter: none;
   }
-}
+} */
 
 /* navbar regular css start */
 
@@ -126,7 +126,8 @@ a.site-logo {
 
 /* nav-toggler css start */
 .nav-toggler {
-  border: 0.5px solid rgb(141, 141, 141);
+  border: 0.5px solid rgb(82, 82, 82);
+  border-radius: 3px;
   padding: 0.3125rem;
   background-color: transparent;
   cursor: pointer;
